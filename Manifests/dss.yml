@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: yelp-camp-container
-          image: srinidhimr/db:v1 
+          image: srinidhimr/db1-nodejs:v5
           ports:
             - containerPort: 3000
           env:
